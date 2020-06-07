@@ -474,3 +474,45 @@ header nav ul li a:hover
 {
 	margin-left: 120px;
 }
+
+.testimonials
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(..//image/background1.jpg);
+	background-size: cover;
+	background-position: center;	
+	background-attachment: fixed;
+	padding-top: 120px;
+	padding-bottom: 120px; 
+	color: white;
+	margin-top: -100px;
+
+}
+
+.testimonials .carousel-indicators
+{
+	bottom: -60px;
+}
+
+.testimonials .sub-heading p
+{
+	color: white;
+}
+
+.carousel-inner img
+{
+	width:150px;
+	height:150px;
+	border-radius: 100%;
+	border:2px solid deepskyblue;
+	padding: 3px;
+}
+
+.testimonials .carousel-indicators li.active
+{
+	background-color: deepskyblue;
+}
+
+.testimonials .carousel-indicators li.active
+{
+	border: white;
+}
